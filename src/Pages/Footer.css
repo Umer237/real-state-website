@@ -1,0 +1,26 @@
+.Footer-Flex{
+    display: flex;
+    justify-content: space-around;
+    background: #171719;
+    color: #ffffff;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 60px 0px ;
+}
+.Side-Text{
+    display: flex;
+    gap: 20px;
+align-items: center;
+padding-top: 10px;
+    flex-wrap: wrap;
+}
+.Side-Text .Icon2{
+     font-size: 20px;
+}
+.Side-Text-2{
+    display: flex;
+    gap: 5px;
+align-items: center;
+padding-top: 10px;
+    flex-wrap: wrap;
+}

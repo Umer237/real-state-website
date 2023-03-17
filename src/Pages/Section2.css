@@ -1,0 +1,35 @@
+.Section-2-Flex{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+    padding: 200px 10px 0;
+}
+.Section-2-Flex img{
+    width: 800px;
+    border-radius: 20px;
+}
+.Section-2-Text{
+    padding-top: 70px;
+}
+.Section-2-Text p{
+    padding-top: 30px;
+}
+.Section-2-Bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: center;
+    padding-top: 150px;
+    gap: 100px;
+}
+.Icon-Flex{
+    display: flex;
+    gap: 5px;
+}
+.Icon-1{
+    font-size: 45px;
+}
+.Section-2-Bottom h3{
+    max-width: 400px;
+}

@@ -1,0 +1,64 @@
+.Section-3-Top-Text{
+    text-align: center;
+    padding-top: 150px;
+}
+.Section-3-Flex{
+    display: flex ;
+    justify-content: center;
+   flex-wrap: wrap;
+   padding: 0 10px;
+    padding-top: 100px;
+}
+.Section-3-Hover img{
+    height: 873px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 0.4s ease-in-out;
+    width: 100%;
+    height: 99%;
+    cursor: pointer;
+}
+.content h5{
+    text-align: center;
+}
+.content h1{
+    text-align: center;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+.Section-3-Hover {
+    position: relative;
+   
+}
+.content h1 {
+  text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.Section-3-P{
+    text-align: center;
+}
