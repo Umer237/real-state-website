@@ -4,7 +4,7 @@ import './Section3.css'
 import {motion} from 'framer-motion'
 
 const Section3 = () => {
-  const [rotate, setRotate] =  React.useState(false)
+  // const [rotate, setRotate] =  React.useState(false)
 
   return (
     <>
@@ -22,7 +22,7 @@ const Section3 = () => {
           <h5>5</h5>
           </motion.div>
           <h1>Marla</h1>
-          <p style={{width:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
+          <p style={{maxWidth:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
         </div>
       </div>
       </div>
@@ -32,7 +32,7 @@ const Section3 = () => {
         <div className='content'>
           <h5>10</h5>
           <h1>Marla</h1>
-          <p style={{width:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
+          <p style={{maxWidth:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
         </div>
       </div>
       </div>
@@ -41,7 +41,7 @@ const Section3 = () => {
       <div className='overlay'>  
         <div className='content'>
           <h1>KANAL</h1>
-          <p style={{width:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
+          <p style={{maxWidth:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
         </div>
       </div>
       </div>
@@ -50,7 +50,7 @@ const Section3 = () => {
       <div className='overlay'>  
         <div className='content'>
           <h1>INVESMENT</h1>
-          <p style={{width:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
+          <p style={{maxWidth:'400px',textAlign:'center'}}>Been there. Done that. Sold this. Bought that Done that. Sold this. Bought that.</p>
         </div>
       </div>
       </div>

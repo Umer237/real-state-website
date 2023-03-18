@@ -13,7 +13,7 @@
     height: 80%;
     display: flex;
     left: 10%;
-    position: relative;  
+    position: absolute;  
         flex-direction: column;
         justify-content: center;
 }
@@ -27,4 +27,13 @@
 .Banner-BG h3{
     padding-left: 130px;
     padding-top: 20px;
+}
+@media (max-width: 768px){
+    .Banner-BG h3 {
+        padding-left: 0;
+text-align: center;
+max-width: 100%;
+margin: auto;
+    }
+    
 }

@@ -1,18 +1,20 @@
 .Section-4-Top-Text h1 {
-  text-align: left;
+  text-align: center;
   padding-top: 100px;
-  padding-left: 150px;
+padding-bottom: 40px;
   color: #000;
 }
 .Section-4-Flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 100px;
-  gap: 50%;
+flex-wrap: wrap;
+  cursor: pointer;
+  align-items: center;
 }
 .input input {
   width: 270px;
-  height: 46px;
+  height: 60px;
   background: rgb(207, 207, 207);
   border: none;
   border-radius: 5px;
@@ -20,17 +22,22 @@
   padding-left: 10px;
   margin: 10px 0px;
   outline: none;
+  cursor: pointer;
   color: #000000;
 }
 .All-input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .Text-Area textarea {
   margin-left: 20px;
+  height: 180px;
+  width: 97%;
   background: rgb(207, 207, 207);
   border-radius: 8px;
+  padding: 10px 0 0 10px;
   border: none;
   outline: none;
 }
@@ -39,7 +46,7 @@ button {
   border: none;
   padding: 5px;
   border-radius: 5px;
-  width: 260px;
+  width: 100%;
 }
 .Address {
   display: flex;
@@ -52,4 +59,5 @@ button {
   gap: 20px;
   font-size: 25px;
   padding-top: 10px;
+  cursor: pointer;
 }

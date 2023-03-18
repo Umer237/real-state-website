@@ -11,11 +11,12 @@ import { IoLocationSharp } from "react-icons/io5";
 const Section4 = () => {
   return (
     <>
-      <div className="Section-4-Top-Text">
+       <div className="Section-4-Top-Text">
         <h1>CONTACTS</h1>
       </div>
       <div className="Section-4-Flex">
         <div className="All-input">
+       
           <div>
             <div className="input">
               <input type="Name" name="Name" placeholder="Name" />
@@ -29,7 +30,7 @@ const Section4 = () => {
           </div>
           <div>
           <div className="Text-Area">
-            <textarea cols="15" rows="5"></textarea>
+            <textarea rows="6" placeholder="Message"></textarea>
           </div>
           <div>
             <button>SEND</button>
