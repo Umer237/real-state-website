@@ -37,4 +37,12 @@
     .Section-2-Flex img{
         width: 100%;
     }
+    .Section-2-Text{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .Section-2-Bottom h3{
+margin: auto;
+text-align: center;
+    }
 }

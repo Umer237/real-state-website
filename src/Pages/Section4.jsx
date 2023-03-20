@@ -12,7 +12,7 @@ const Section4 = () => {
   return (
     <>
        <div className="Section-4-Top-Text">
-        <h1>CONTACTS</h1>
+        <h2>CONTACTS</h2>
       </div>
       <div className="Section-4-Flex">
         <div className="All-input">
@@ -30,7 +30,7 @@ const Section4 = () => {
           </div>
           <div>
           <div className="Text-Area">
-            <textarea rows="6" placeholder="Message"></textarea>
+            <textarea placeholder="Message"></textarea>
           </div>
           <div>
             <button>SEND</button>
@@ -38,7 +38,7 @@ const Section4 = () => {
           </div>
         </div>
         <div>
-          <div style={{display:'flex', gap:'5px'}}>
+          <div className="Number">
             <BsTelephoneFill />
             <h4>03224447077 / 03314447077</h4>
           </div>

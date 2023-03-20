@@ -10,11 +10,6 @@ const Section2 = () => {
     <>
       <div className="Section-2-Flex">
         <div className="Section-2-Text">
-          {/* <motion.div animate={{ y: [-100,0, 0, 0], opacity: 1,}}transition={{
-                    duration: 2,     
-                }} 
-                  initial={{ opacity: 0.2,  }}
-                > */}
           <h2>ABOUT US</h2>
           <p>
             A Union of Agressov Group & Abbott Hotels. Both have been ploneers
@@ -28,11 +23,6 @@ const Section2 = () => {
           </p>
           {/* </motion.div> */}
         </div>
-        {/* <motion.div animate={{ y: [100,0, 0, 0], opacity: 1,}}transition={{
-                    duration: 2,     
-                }} 
-                  initial={{ opacity: 0.2,  }}
-                > */}
         <img
           src={
             "https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
